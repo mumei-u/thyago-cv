@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  margin: 0;
+  padding: 0;
+  background: grey;
+  text-decoration: none;
+  position: right;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.link {
+  color: white;
+  text-decoration: none;
+  margin: 0 6px;
+}
