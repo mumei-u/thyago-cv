@@ -3,6 +3,8 @@ body {
   padding: 0;
 }
 nav {
+  position: sticky;
+  top: 0;
   margin: 0;
   padding: 0;
   background: grey;
@@ -25,24 +27,36 @@ nav {
 }
 
 .header {
-  background: grey;
-  height: 400px;
+  background: none;
+  height: 425px;
 }
 
-.logo {
+.logo-home{
   height: 25px;
   width: auto;
 }
-.head-hote{
-  padding-top: 150px;
-  position: center;
+.email-logo {
+  height: 20px;
 }
-.name {
+
+.portrait {
+  overflow:hidden;
+  -webkit-border-radius:200px;
+  -moz-border-radius:200px;
+  border-radius:200px;
+  width:200px;
+  height:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.head-name {
   text-align: center;
   font-family: sans-serif;
   font size: 50px;
   margin: 0;
-  padding-bottom: 20px;
 }
 .head-futur {
   font-family: sans-serif;
@@ -51,22 +65,66 @@ nav {
 }
 .head-futur-bar {
   width: 500px;
-
 }
 
 .head-profil {
   color: ;
   font-family: system-ui;
   text-align: center;
+  margin: 0;
+  padding: 16px 0;
 }
 
-.skills {
-  text-align: center;
-  font-size: 20px;
-  margin-top: 400px;
+.bar-title {
+
+    font-size: 18px;
+    padding-bottom: 250px;
+
+    align-items: center;
+
+    /* active flexbox */
+    display: flex;
+
+    /* garde le texte centré s’il passe sur plusieurs lignes ou si flexbox n’est pas supporté */
+    text-align: center
 }
-.experience{
-  text-align: center;
-  font-size: 20px;
-  margin-top: 600px;
+.bar-title::before,
+.bar-title::after {
+    /* la couleur est volontairement absente ; ainsi elle sera celle du texte */
+    border-top: .0625em solid;
+
+    /* nécessaire pour afficher les pseudo-éléments */
+    content: "";
+
+    /* partage le reste de la largeur disponible */
+    flex: 1;
+
+    /* espace les traits du texte */
+    margin: 0 .5em;
+}
+
+.article {
+  background: #607d8b;
+  height: 700px;
+}
+
+.article .bar-title {
+  color: black;
+  font-family: sans-serif;
+  padding: inherit;
+  margin: auto;
+  padding-bottom: auto;
+}
+
+.footer .bar-title {
+  color: black;
+  font-family: sans-serif;
+  padding: inherit;
+  margin: auto;
+  padding-bottom: auto;
+}
+
+.footer {
+  background: #009688;
+  height: 600px;
 }
