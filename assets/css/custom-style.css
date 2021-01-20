@@ -21,13 +21,10 @@
 html {
   scroll-behavior: smooth;
 }
-/* #navbarSupportedContent{
-  background: #222222;
-} */
 main{
- background-image: url(./../img/bg-main.jpg);
- background-size: cover;
- background-attachment: fixed;
+  background: #222222;
+  background-image: url(./../img/Protruding-Squares.svg);
+  background-attachment: fixed;
 }
 p{
   color: black;
@@ -37,7 +34,7 @@ p{
 .bloc-text{
   background-color: rgb(255, 255, 255, 0.9);
   padding: 30px;
-  border: 8px solid white;
+  border: 8px solid #ffffff;
 }
 .responsive-aos-fix{
   overflow-x: hidden;
@@ -57,11 +54,11 @@ h1{
   font-size: 4em;
   font-weight: bold;
   text-align: center;
-  color: white;
+  color: #ffffff;
 }
 h2{
   text-align: center;
-  color: white;
+  color: #ffffff;
 }
 /* nav */
 nav li>a{
@@ -85,7 +82,7 @@ nav li>a{
 }
 #presentation h3{
   font-size: 2.1em;
-  color: white;
+  color: #ffffff;
   margin-bottom: 30px;
   font-family: 'Krona One', sans-serif;
   font-weight: normal;
@@ -93,7 +90,7 @@ nav li>a{
 #presentation img{
   width: 250px;
   border-radius: 120px;
-  border: 8px solid white;
+  border: 8px solid #ffffff;
 }
 /* section experience & formations */
 #experience-formations{
@@ -102,7 +99,7 @@ nav li>a{
 }
 #experience-formations h3{
   font-size: 2.1em;
-  color: white;
+  color: #ffffff;
   margin-bottom: 30px;
   font-family: 'Krona One', sans-serif;
   font-weight: normal;
@@ -116,7 +113,7 @@ nav li>a{
 }
 #competences h3{
   font-size: 2.1em;
-  color: white;
+  color: #ffffff;
   margin-bottom: 30px;
   font-family: 'Krona One', sans-serif;
   font-weight: normal;
@@ -129,7 +126,7 @@ nav li>a{
 .bloc-competences{
   background-color: rgb(255, 255, 255, 0.9);
   padding: 5px;
-  border: 8px solid white;
+  border: 8px solid #ffffff;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 15px;
@@ -175,7 +172,7 @@ background-color: #00009C;
 }
 .arrow-fixed-bottom{
   font-size: 3.5rem;
-  color: white;
+  color: #ffffff;
 }
 /* section projets */
 #projets{
@@ -186,14 +183,14 @@ background-color: #00009C;
 }
 #projets h3{
   font-size: 2.1em;
-  color: white;
+  color: #ffffff;
   font-family: 'Krona One', sans-serif;
   font-weight: normal;
 }
 .bloc-projets{
   background-color: rgb(255, 255, 255, 0.9);
   padding: 5px;
-  border: 8px solid white;
+  border: 8px solid #ffffff;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 20px;
@@ -209,7 +206,7 @@ background-color: #00009C;
 .btn-cleaner-world{
   width: 50%;
   background-color: #205e05;
-  color: white;
+  color: #ffffff;
   font-size: 1.5em;
 }
 .link-mega-studio{
@@ -219,7 +216,7 @@ background-color: #00009C;
 .btn-mega-studio{
   width: 50%;
   background-color: #20336E;
-  color: white;
+  color: #ffffff;
   font-size: 1.5em;
 }
 .link-roulette{
@@ -229,7 +226,7 @@ background-color: #00009C;
 .btn-roulette{
   width: 50%;
   background-color: #e1003c;
-  color: white;
+  color: #ffffff;
   font-size: 1.5em;
 }
 .link-collection-box{
@@ -239,19 +236,19 @@ background-color: #00009C;
 .btn-collection-box{
   width: 50%;
   background-color: #4f3423;
-  color: white;
+  color: #ffffff;
   font-size: 1.5em;
 }
 .btn-time-piece{
   width: 50%;
   background-color: black;
-  color: white;
+  color: #ffffff;
   font-size: 1.5em;
 }
 .btn-numeri-school{
   width: 50%;
   background-color: #32A7DD;
-  color: white;
+  color: #ffffff;
   font-size: 1.5em;
 }
 /* section contact */
@@ -260,12 +257,12 @@ background-color: #00009C;
 }
 #contact>div>h3{
   font-size: 2.1em;
-  color: white;
+  color: #ffffff;
   font-family: 'Krona One', sans-serif;
   font-weight: normal;
 }
 #contact iframe{
-  border: 8px solid white;
+  border: 8px solid #ffffff;
 }
 /* footer */
 footer{
